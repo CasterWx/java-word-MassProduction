@@ -28,14 +28,19 @@
 #### 3.运行程序
 
 在程序中选择要使用的word模板.
+
 ![img1](img/1.PNG)
+
 ![img2](img/2.PNG)
 
 写入输出的word名称.
+
 ![img3](img/3.PNG)
 
 点击生成后,在项目word目录下：
+
 ![img4](img/4.PNG)
+
 ![img5](img/5.PNG)
 
 
@@ -57,6 +62,7 @@ Problem中定义了一道题目的信息。
     title对应了题目的内容。
 
 IProblemDAO是一个接口,用来实现题目的增删改查.
+
 ```java
 public interface IProblemDAO {
     void save(Problem problem);
